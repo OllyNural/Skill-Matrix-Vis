@@ -1,0 +1,350 @@
+[
+    {
+        "title": "SourceControl",
+        "values": [
+            {
+                "type": "GIT",
+                "level": 4
+            },
+            {
+                "type": "SVN",
+                "level": 0
+            },
+            {
+                "type": "TFS",
+                "level": 0
+            },
+            {
+                "type": "Clearcase",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "title": "ContinuousIntegration",
+        "values": [
+            {
+                "type": "Automation",
+                "level": 4
+            },
+            {
+                "type": "Gradle",
+                "level": 1
+            },
+            {
+                "type": "Teamcity",
+                "level": 0
+            },
+            {
+                "type": "Octopus Deploy",
+                "level": 0
+            },
+            {
+                "type": "CircleCI",
+                "level": 5
+            },
+            {
+                "type": "Jenkins",
+                "level": 3
+            },
+            {
+                "type": "Maven",
+                "level": 3
+            },
+            {
+                "type": "Redshift",
+                "level": 0
+            },
+            {
+                "type": "DB Deploy",
+                "level": 0
+            },
+            {
+                "type": "Liquibase",
+                "level": 0
+            },
+            {
+                "type": "TravisCI",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "title": "Deploy",
+        "values": [
+            {
+                "type": "Docker",
+                "level": 4
+            },
+            {
+                "type": "Bogie",
+                "level": 0
+            },
+            {
+                "type": "Artifactory",
+                "level": 1
+            },
+            {
+                "type": "Nexus",
+                "level": 2
+            },
+            {
+                "type": "ECR",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "title": "Orchestration",
+        "values": [
+            {
+                "type": "Rancher",
+                "level": 1
+            },
+            {
+                "type": "Kubernetes",
+                "level": 5
+            },
+            {
+                "type": "Terraform",
+                "level": 2
+            },
+            {
+                "type": "Puppet",
+                "level": 1
+            },
+            {
+                "type": "Chef",
+                "level": 0
+            },
+            {
+                "type": "Ansible",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "title": "Environment",
+        "values": [
+            {
+                "type": "AWS",
+                "level": 4
+            },
+            {
+                "type": "Azure",
+                "level": 2
+            },
+            {
+                "type": "Google Cloud",
+                "level": 1
+            },
+            {
+                "type": "On Prem (Unix)",
+                "level": 1
+            },
+            {
+                "type": "On Prem (Windows)",
+                "level": 0
+            },
+            {
+                "type": "VM Ware",
+                "level": 0
+            },
+            {
+                "type": "OpenStack",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "title": "Hosting",
+        "values": [
+            {
+                "type": "Load Balancing",
+                "level": 3
+            },
+            {
+                "type": "Nginx",
+                "level": 2
+            },
+            {
+                "type": "Apache",
+                "level": 2
+            },
+            {
+                "type": "AWS",
+                "level": 3
+            },
+            {
+                "type": "Azure",
+                "level": 2
+            },
+            {
+                "type": "Cloudfront",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "title": "MonitoringAlerting",
+        "values": [
+            {
+                "type": "ELK",
+                "level": 0
+            },
+            {
+                "type": "Datadog",
+                "level": 2
+            },
+            {
+                "type": "Nagios",
+                "level": 0
+            },
+            {
+                "type": "Splunk",
+                "level": 0
+            },
+            {
+                "type": "DynaTrace",
+                "level": 0
+            },
+            {
+                "type": "AppDynamics",
+                "level": 1
+            },
+            {
+                "type": "New Relics",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "title": "Processes",
+        "values": [
+            {
+                "type": "Agile",
+                "level": 4
+            },
+            {
+                "type": "RUP",
+                "level": 0
+            },
+            {
+                "type": "ITIL",
+                "level": 0
+            },
+            {
+                "type": "Prince2",
+                "level": 0
+            },
+            {
+                "type": "Branching Strategy",
+                "level": 4
+            }
+        ]
+    },
+    {
+        "title": "Security",
+        "values": [
+            {
+                "type": "IAM Roles",
+                "level": 2
+            },
+            {
+                "type": "LDAP",
+                "level": 0
+            },
+            {
+                "type": "Cloud Security",
+                "level": 2
+            },
+            {
+                "type": "Firewalls",
+                "level": 1
+            },
+            {
+                "type": "Pen Testing",
+                "level": 0
+            }
+        ]
+    },
+    {
+        "title": "Language",
+        "values": [
+            {
+                "type": "Java",
+                "level": 2
+            },
+            {
+                "type": "JavaScript",
+                "level": 3
+            },
+            {
+                "type": "Kotlin",
+                "level": 0
+            },
+            {
+                "type": "Shell",
+                "level": 3
+            },
+            {
+                "type": "Powershell",
+                "level": 0
+            },
+            {
+                "type": "Ruby",
+                "level": 0
+            },
+            {
+                "type": "Python",
+                "level": 3
+            },
+            {
+                "type": "Groovy",
+                "level": 1
+            },
+            {
+                "type": "GoLang",
+                "level": 1
+            }
+        ]
+    },
+    {
+        "title": "Other",
+        "values": [
+            {
+                "type": "Tomcat",
+                "level": 0
+            },
+            {
+                "type": "NodeJS",
+                "level": 3
+            },
+            {
+                "type": "Spring",
+                "level": 2
+            }
+        ]
+    },
+    {
+        "title": "Testing",
+        "values": [
+            {
+                "type": "Sonar",
+                "level": 0
+            },
+            {
+                "type": "VeraCode",
+                "level": 0
+            },
+            {
+                "type": "Selenium",
+                "level": 2
+            },
+            {
+                "type": "JMeter",
+                "level": 0
+            }
+        ]
+    }
+]
