@@ -26,11 +26,16 @@ const useStyles = makeStyles(theme => ({
     flexWrap: 'wrap',
   },
   iconContainer: {
-    width: '40%',
+    // width: '40%',
+    // display: 'flex',
+    // justifyContent: 'space-around',
+    // padding: '10px 20px',
+
+    width: 50%,
     display: 'flex',
+    padding: '0px 20px 10px 20px',
     justifyContent: 'space-around',
-    // margin
-    padding: '10px 20px',
+    marginBottom: '36px',
   }
 }));
 
