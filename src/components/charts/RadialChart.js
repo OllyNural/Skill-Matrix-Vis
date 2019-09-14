@@ -1,48 +1,30 @@
 import React from 'react';
 import {
-    Radar, RadarChart, PolarGrid, Legend,
+    Radar, RadarChart, PolarGrid,
     PolarAngleAxis, PolarRadiusAxis,
 } from 'recharts';
 
-const data = [
-    {
-        subject: 'Math', 1: 120, B: 110, fullMark: 150,
-    },
-    {
-        subject: 'Chinese', 1: 98, B: 130, fullMark: 150,
-    },
-    {
-        subject: 'English', 1: 86, B: 130, fullMark: 150,
-    },
-    {
-        subject: 'Geography', 1: 99, B: 100, fullMark: 150,
-    },
-    {
-        subject: 'Physics', 1: 85, B: 90, fullMark: 150,
-    },
-    {
-        subject: 'History', 1: 65, B: 85, fullMark: 150,
-    },
-];
+import config from '../../../config/config'
+const { fullMark } = config;
 
+const randomColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`
 
-
-// End result
-const end = [
-    {
-        type: 'GIT', 1: 4, 2: 3, 3: 5, fullMark: 5
-    }
-]
-
-const RadialChartTotal = ({ data }) => (
-    <RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={data}>
-        <PolarGrid />
-        <PolarAngleAxis dataKey="subject" />
-        <PolarRadiusAxis angle={30} domain={[0, 150]} />
-        <Radar name="Mike" dataKey="1" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
-        <Radar name="Lily" dataKey="B" stroke="#82ca9d" fill="#82ca9d" fillOpacity={0.6} />
-        <Legend />
-    </RadarChart>
-);
+const RadialChartTotal = ({ data: { title, values, count } }) => {
+    return (
+        <RadarChart cx={300} cy={250} outerRadius={150} width={500} height={500} data={values}>
+            <PolarGrid />
+            <PolarAngleAxis dataKey="type" />
+            <PolarRadiusAxis angle={30} domain={[0, fullMark]} />
+            {
+                Array(count).fill().map((_, i) => {
+                    const colour = randomColor()
+                    return (
+                        <Radar key={i} dataKey={i} stroke={colour} fill={colour} fillOpacity={0.3} />
+                    )
+                })
+            }
+        </RadarChart>
+    )
+};
 
 export default RadialChartTotal;

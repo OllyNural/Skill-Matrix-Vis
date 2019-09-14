@@ -1,13 +1,13 @@
 {
-    "name": "OllyNural",
-    "initials": "ON",
+    "name": "Charlene Chetcuti",
+    "initials": "CC",
     "skills": [
         {
             "title": "SourceControl",
             "values": [
                 {
                     "type": "GIT",
-                    "level": 3
+                    "level": 2
                 },
                 {
                     "type": "SVN",
@@ -28,11 +28,11 @@
             "values": [
                 {
                     "type": "Automation",
-                    "level": 3
+                    "level": 0
                 },
                 {
                     "type": "Gradle",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Teamcity",
@@ -44,15 +44,15 @@
                 },
                 {
                     "type": "CircleCI",
-                    "level": 4
+                    "level": 0
                 },
                 {
                     "type": "Jenkins",
-                    "level": 2
+                    "level": 1
                 },
                 {
                     "type": "Maven",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Redshift",
@@ -68,7 +68,7 @@
                 },
                 {
                     "type": "TravisCI",
-                    "level": 1
+                    "level": 0
                 }
             ]
         },
@@ -77,7 +77,7 @@
             "values": [
                 {
                     "type": "Docker",
-                    "level": 3
+                    "level": 2
                 },
                 {
                     "type": "Bogie",
@@ -85,15 +85,15 @@
                 },
                 {
                     "type": "Artifactory",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Nexus",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "ECR",
-                    "level": 3
+                    "level": 1
                 }
             ]
         },
@@ -102,19 +102,19 @@
             "values": [
                 {
                     "type": "Rancher",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Kubernetes",
-                    "level": 4
+                    "level": 0
                 },
                 {
                     "type": "Terraform",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Puppet",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Chef",
@@ -122,7 +122,7 @@
                 },
                 {
                     "type": "Ansible",
-                    "level": 1
+                    "level": 0
                 }
             ]
         },
@@ -131,19 +131,19 @@
             "values": [
                 {
                     "type": "AWS",
-                    "level": 3
+                    "level": 1
                 },
                 {
                     "type": "Azure",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Google Cloud",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "On Prem (Unix)",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "On Prem (Windows)",
@@ -164,27 +164,27 @@
             "values": [
                 {
                     "type": "Load Balancing",
-                    "level": 3
+                    "level": 0
                 },
                 {
                     "type": "Nginx",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Apache",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "AWS",
-                    "level": 3
+                    "level": 1
                 },
                 {
                     "type": "Azure",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Cloudfront",
-                    "level": 1
+                    "level": 0
                 }
             ]
         },
@@ -197,7 +197,7 @@
                 },
                 {
                     "type": "Datadog",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Nagios",
@@ -213,7 +213,7 @@
                 },
                 {
                     "type": "AppDynamics",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "New Relics",
@@ -226,7 +226,7 @@
             "values": [
                 {
                     "type": "Agile",
-                    "level": 3
+                    "level": 2
                 },
                 {
                     "type": "RUP",
@@ -242,7 +242,7 @@
                 },
                 {
                     "type": "Branching Strategy",
-                    "level": 3
+                    "level": 0
                 }
             ]
         },
@@ -251,7 +251,7 @@
             "values": [
                 {
                     "type": "IAM Roles",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "LDAP",
@@ -259,11 +259,11 @@
                 },
                 {
                     "type": "Cloud Security",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Firewalls",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Pen Testing",
@@ -276,11 +276,11 @@
             "values": [
                 {
                     "type": "Java",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "JavaScript",
-                    "level": 3
+                    "level": 0
                 },
                 {
                     "type": "Kotlin",
@@ -288,7 +288,7 @@
                 },
                 {
                     "type": "Shell",
-                    "level": 3
+                    "level": 0
                 },
                 {
                     "type": "Powershell",
@@ -300,15 +300,15 @@
                 },
                 {
                     "type": "Python",
-                    "level": 3
+                    "level": 0
                 },
                 {
                     "type": "Groovy",
-                    "level": 2
+                    "level": 1
                 },
                 {
                     "type": "GoLang",
-                    "level": 1
+                    "level": 0
                 }
             ]
         },
@@ -321,7 +321,7 @@
                 },
                 {
                     "type": "NodeJS",
-                    "level": 3
+                    "level": 1
                 },
                 {
                     "type": "Spring",
@@ -342,7 +342,7 @@
                 },
                 {
                     "type": "Selenium",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "JMeter",

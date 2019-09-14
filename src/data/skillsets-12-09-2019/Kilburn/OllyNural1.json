@@ -1,13 +1,12 @@
 {
-    "name": "OllyNural",
-    "initials": "ON",
+    "name": "Olly Nural",
     "skills": [
         {
             "title": "SourceControl",
             "values": [
                 {
                     "type": "GIT",
-                    "level": 3
+                    "level": 5
                 },
                 {
                     "type": "SVN",
@@ -28,7 +27,7 @@
             "values": [
                 {
                     "type": "Automation",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Gradle",
@@ -44,15 +43,15 @@
                 },
                 {
                     "type": "CircleCI",
-                    "level": 4
+                    "level": 5
                 },
                 {
                     "type": "Jenkins",
-                    "level": 2
+                    "level": 3
                 },
                 {
                     "type": "Maven",
-                    "level": 2
+                    "level": 3
                 },
                 {
                     "type": "Redshift",
@@ -77,7 +76,7 @@
             "values": [
                 {
                     "type": "Docker",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Bogie",
@@ -93,7 +92,7 @@
                 },
                 {
                     "type": "ECR",
-                    "level": 3
+                    "level": 4
                 }
             ]
         },
@@ -106,7 +105,7 @@
                 },
                 {
                     "type": "Kubernetes",
-                    "level": 4
+                    "level": 5
                 },
                 {
                     "type": "Terraform",
@@ -131,7 +130,7 @@
             "values": [
                 {
                     "type": "AWS",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Azure",
@@ -226,7 +225,7 @@
             "values": [
                 {
                     "type": "Agile",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "RUP",
@@ -242,7 +241,7 @@
                 },
                 {
                     "type": "Branching Strategy",
-                    "level": 3
+                    "level": 4
                 }
             ]
         },
@@ -304,7 +303,7 @@
                 },
                 {
                     "type": "Groovy",
-                    "level": 2
+                    "level": 1
                 },
                 {
                     "type": "GoLang",
@@ -325,7 +324,7 @@
                 },
                 {
                     "type": "Spring",
-                    "level": 1
+                    "level": 2
                 }
             ]
         },

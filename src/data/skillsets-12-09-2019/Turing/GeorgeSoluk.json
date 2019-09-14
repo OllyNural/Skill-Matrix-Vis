@@ -1,13 +1,13 @@
 {
-    "name": "OllyNural",
-    "initials": "ON",
+    "name": "George Soluk",
+    "initials": "GS",
     "skills": [
         {
             "title": "SourceControl",
             "values": [
                 {
                     "type": "GIT",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "SVN",
@@ -28,11 +28,11 @@
             "values": [
                 {
                     "type": "Automation",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Gradle",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Teamcity",
@@ -44,23 +44,23 @@
                 },
                 {
                     "type": "CircleCI",
-                    "level": 4
+                    "level": 3
                 },
                 {
                     "type": "Jenkins",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "Maven",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Redshift",
-                    "level": 0
+                    "level": 2
                 },
                 {
                     "type": "DB Deploy",
-                    "level": 0
+                    "level": 2
                 },
                 {
                     "type": "Liquibase",
@@ -68,7 +68,7 @@
                 },
                 {
                     "type": "TravisCI",
-                    "level": 1
+                    "level": 3
                 }
             ]
         },
@@ -77,23 +77,23 @@
             "values": [
                 {
                     "type": "Docker",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Bogie",
-                    "level": 0
+                    "level": 4
                 },
                 {
                     "type": "Artifactory",
-                    "level": 1
+                    "level": 4
                 },
                 {
                     "type": "Nexus",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "ECR",
-                    "level": 3
+                    "level": 0
                 }
             ]
         },
@@ -102,27 +102,27 @@
             "values": [
                 {
                     "type": "Rancher",
-                    "level": 1
+                    "level": 3
                 },
                 {
                     "type": "Kubernetes",
-                    "level": 4
-                },
-                {
-                    "type": "Terraform",
                     "level": 2
                 },
                 {
+                    "type": "Terraform",
+                    "level": 3
+                },
+                {
                     "type": "Puppet",
-                    "level": 1
+                    "level": 2
                 },
                 {
                     "type": "Chef",
-                    "level": 0
+                    "level": 3
                 },
                 {
                     "type": "Ansible",
-                    "level": 1
+                    "level": 3
                 }
             ]
         },
@@ -135,15 +135,15 @@
                 },
                 {
                     "type": "Azure",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Google Cloud",
-                    "level": 1
+                    "level": 2
                 },
                 {
                     "type": "On Prem (Unix)",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "On Prem (Windows)",
@@ -164,15 +164,15 @@
             "values": [
                 {
                     "type": "Load Balancing",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Nginx",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "Apache",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "AWS",
@@ -180,11 +180,11 @@
                 },
                 {
                     "type": "Azure",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Cloudfront",
-                    "level": 1
+                    "level": 3
                 }
             ]
         },
@@ -193,11 +193,11 @@
             "values": [
                 {
                     "type": "ELK",
-                    "level": 0
+                    "level": 2
                 },
                 {
                     "type": "Datadog",
-                    "level": 2
+                    "level": 3
                 },
                 {
                     "type": "Nagios",
@@ -213,11 +213,11 @@
                 },
                 {
                     "type": "AppDynamics",
-                    "level": 1
+                    "level": 3
                 },
                 {
                     "type": "New Relics",
-                    "level": 0
+                    "level": 3
                 }
             ]
         },
@@ -242,7 +242,7 @@
                 },
                 {
                     "type": "Branching Strategy",
-                    "level": 3
+                    "level": 4
                 }
             ]
         },
@@ -251,7 +251,7 @@
             "values": [
                 {
                     "type": "IAM Roles",
-                    "level": 2
+                    "level": 3
                 },
                 {
                     "type": "LDAP",
@@ -259,15 +259,15 @@
                 },
                 {
                     "type": "Cloud Security",
-                    "level": 2
+                    "level": 3
                 },
                 {
                     "type": "Firewalls",
-                    "level": 1
+                    "level": 2
                 },
                 {
                     "type": "Pen Testing",
-                    "level": 0
+                    "level": 3
                 }
             ]
         },
@@ -288,15 +288,15 @@
                 },
                 {
                     "type": "Shell",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Powershell",
-                    "level": 0
+                    "level": 3
                 },
                 {
                     "type": "Ruby",
-                    "level": 0
+                    "level": 3
                 },
                 {
                     "type": "Python",
@@ -304,11 +304,11 @@
                 },
                 {
                     "type": "Groovy",
-                    "level": 2
+                    "level": 3
                 },
                 {
                     "type": "GoLang",
-                    "level": 1
+                    "level": 3
                 }
             ]
         },
@@ -321,11 +321,11 @@
                 },
                 {
                     "type": "NodeJS",
-                    "level": 3
+                    "level": 2
                 },
                 {
                     "type": "Spring",
-                    "level": 1
+                    "level": 0
                 }
             ]
         },
@@ -334,7 +334,7 @@
             "values": [
                 {
                     "type": "Sonar",
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "type": "VeraCode",
