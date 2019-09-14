@@ -4,6 +4,8 @@ import {
   Box,
   makeStyles,
   Grid,
+  Paper,
+  Typography,
 } from '@material-ui/core';
 import { ResponsiveContainer } from 'recharts'
 
@@ -22,6 +24,13 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     display: 'flex',
     flexWrap: 'wrap',
+  },
+  iconContainer: {
+    width: '40%',
+    display: 'flex',
+    justifyContent: 'space-around',
+    // margin
+    padding: '10px 20px',
   }
 }));
 
@@ -31,7 +40,6 @@ const RadialChartTotal = () => {
   const {
     allTuringJson,
     allKilburnJson,
-    site: { siteMetadata: { clubs } }
   } = useStaticQuery(query)
 
   const allGraphData = [...allTuringJson.nodes, ...allKilburnJson.nodes]
@@ -80,23 +88,24 @@ const RadialChartTotal = () => {
       })
     });
 
-  console.log(filteredData);
-
   return (
     <Box component='div' >
-      <Box component='div' className={classes.iconContainer}>
-        {
-          filters.map(filter => {
-            return (
-              <ChipIcon
-                label={filter.club}
-                onClick={() => handleFilter(filter.club)}
-                isSelected={filter.isSelected}
-              />
-            )
-          })
-        }
-      </Box>
+      {/* <Paper className={classes.iconPaper} > */}
+        <Box component='div' className={classes.iconContainer}>
+          <Typography variant='h6'>FILTERS:</Typography>
+          {
+            filters.map(filter => {
+              return (
+                <ChipIcon
+                  label={filter.club}
+                  onClick={() => handleFilter(filter.club)}
+                  isSelected={filter.isSelected}
+                />
+              )
+            })
+          }
+        </Box>
+      {/* </Paper> */}
 
       <Grid container className={classes.root} spacing={2}>
         {
@@ -141,11 +150,6 @@ query RadialChartTotal {
       }
       name
       club
-    }
-  },
-  site {
-    siteMetadata {
-      clubs
     }
   }
 }
