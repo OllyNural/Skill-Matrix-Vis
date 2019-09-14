@@ -1,6 +1,7 @@
 {
     "name": "Peter Lai",
     "initials": "PL",
+    "club": "Turing",
     "skills": [
         {
             "title": "SourceControl",

@@ -7,9 +7,7 @@ import RadialChartTotal from "../components/RadialChartTotal"
 
 const getIntro = () => (
   <div>
-    <h2> DevOps Skills Gap Analysis </h2>
-    <p> Figured it would be fun to play around with some the data collected from all the submitted things. </p>
-    <p> This should let us create our own analysis of the data, and display any graphs we want etc </p>
+    <h2> Radar Charts of Individual Areas </h2>
   </div>
 )
 

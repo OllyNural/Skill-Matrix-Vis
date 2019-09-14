@@ -1,6 +1,7 @@
 {
     "name": "OllyNural",
     "initials": "ON",
+    "club": "Turing",
     "skills": [
         {
             "title": "SourceControl",

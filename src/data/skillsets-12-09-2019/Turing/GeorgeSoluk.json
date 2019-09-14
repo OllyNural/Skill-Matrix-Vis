@@ -1,6 +1,7 @@
 {
     "name": "George Soluk",
     "initials": "GS",
+    "club": "Turing",
     "skills": [
         {
             "title": "SourceControl",

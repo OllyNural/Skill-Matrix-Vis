@@ -1,5 +1,7 @@
 {
-    "name": "Olly Nural",
+    "name": "Max Siegieda",
+    "initials": "MS",
+    "club": "Kilburn",
     "skills": [
         {
             "title": "SourceControl",
@@ -31,7 +33,7 @@
                 },
                 {
                     "type": "Gradle",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Teamcity",
@@ -43,15 +45,15 @@
                 },
                 {
                     "type": "CircleCI",
-                    "level": 5
+                    "level": 0
                 },
                 {
                     "type": "Jenkins",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Maven",
-                    "level": 3
+                    "level": 1
                 },
                 {
                     "type": "Redshift",
@@ -67,7 +69,7 @@
                 },
                 {
                     "type": "TravisCI",
-                    "level": 1
+                    "level": 2
                 }
             ]
         },
@@ -88,7 +90,7 @@
                 },
                 {
                     "type": "Nexus",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "ECR",
@@ -101,19 +103,19 @@
             "values": [
                 {
                     "type": "Rancher",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "Kubernetes",
-                    "level": 5
+                    "level": 3
                 },
                 {
                     "type": "Terraform",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "Puppet",
-                    "level": 1
+                    "level": 4
                 },
                 {
                     "type": "Chef",
@@ -121,7 +123,7 @@
                 },
                 {
                     "type": "Ansible",
-                    "level": 1
+                    "level": 4
                 }
             ]
         },
@@ -134,15 +136,15 @@
                 },
                 {
                     "type": "Azure",
-                    "level": 2
+                    "level": 1
                 },
                 {
                     "type": "Google Cloud",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "On Prem (Unix)",
-                    "level": 1
+                    "level": 4
                 },
                 {
                     "type": "On Prem (Windows)",
@@ -150,11 +152,11 @@
                 },
                 {
                     "type": "VM Ware",
-                    "level": 0
+                    "level": 2
                 },
                 {
                     "type": "OpenStack",
-                    "level": 0
+                    "level": 4
                 }
             ]
         },
@@ -163,27 +165,27 @@
             "values": [
                 {
                     "type": "Load Balancing",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Nginx",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "Apache",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "AWS",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Azure",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Cloudfront",
-                    "level": 1
+                    "level": 0
                 }
             ]
         },
@@ -192,27 +194,27 @@
             "values": [
                 {
                     "type": "ELK",
-                    "level": 0
+                    "level": 4
                 },
                 {
                     "type": "Datadog",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "Nagios",
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "type": "Splunk",
-                    "level": 0
+                    "level": 3
                 },
                 {
                     "type": "DynaTrace",
-                    "level": 0
+                    "level": 3
                 },
                 {
                     "type": "AppDynamics",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "New Relics",
@@ -241,7 +243,7 @@
                 },
                 {
                     "type": "Branching Strategy",
-                    "level": 4
+                    "level": 0
                 }
             ]
         },
@@ -250,7 +252,7 @@
             "values": [
                 {
                     "type": "IAM Roles",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "LDAP",
@@ -258,11 +260,11 @@
                 },
                 {
                     "type": "Cloud Security",
-                    "level": 2
+                    "level": 4
                 },
                 {
                     "type": "Firewalls",
-                    "level": 1
+                    "level": 4
                 },
                 {
                     "type": "Pen Testing",
@@ -275,11 +277,11 @@
             "values": [
                 {
                     "type": "Java",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "JavaScript",
-                    "level": 3
+                    "level": 0
                 },
                 {
                     "type": "Kotlin",
@@ -287,7 +289,7 @@
                 },
                 {
                     "type": "Shell",
-                    "level": 3
+                    "level": 4
                 },
                 {
                     "type": "Powershell",
@@ -299,15 +301,15 @@
                 },
                 {
                     "type": "Python",
-                    "level": 3
+                    "level": 2
                 },
                 {
                     "type": "Groovy",
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "type": "GoLang",
-                    "level": 1
+                    "level": 4
                 }
             ]
         },
@@ -316,15 +318,15 @@
             "values": [
                 {
                     "type": "Tomcat",
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "type": "NodeJS",
-                    "level": 3
+                    "level": 0
                 },
                 {
                     "type": "Spring",
-                    "level": 2
+                    "level": 0
                 }
             ]
         },
@@ -333,7 +335,7 @@
             "values": [
                 {
                     "type": "Sonar",
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "type": "VeraCode",
@@ -341,11 +343,11 @@
                 },
                 {
                     "type": "Selenium",
-                    "level": 2
+                    "level": 0
                 },
                 {
                     "type": "JMeter",
-                    "level": 0
+                    "level": 1
                 }
             ]
         }

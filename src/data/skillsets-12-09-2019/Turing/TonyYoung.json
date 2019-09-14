@@ -1,6 +1,7 @@
 {
     "name": "Tony Young",
     "initials": "TY",
+    "club": "Turing",
     "skills": [
         {
             "title": "SourceControl",

@@ -1,6 +1,7 @@
 {
     "name": "Michael Frost",
     "initials": "MF",
+    "club": "Turing",
     "skills": [
         {
             "title": "SourceControl",

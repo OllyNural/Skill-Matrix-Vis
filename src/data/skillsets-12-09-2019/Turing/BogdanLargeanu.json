@@ -1,6 +1,7 @@
 {
     "name": "Bogdan Largeanu",
     "initials": "BL",
+    "club": "Turing",
     "skills": [
         {
             "title": "SourceControl",
