@@ -1,19 +1,13 @@
 import React from 'react';
-import { StaticQuery, graphql, useStaticQuery } from 'gatsby';
 import {
   Box,
   makeStyles,
   Grid,
-  Paper,
-  Typography,
 } from '@material-ui/core';
-import { ResponsiveContainer } from 'recharts'
 
 import RadialChart from './charts/RadialChart'
-import ChipIcon from '../components/chipIcon'
 
 import config from '../../config/config'
-import { useState } from 'react';
 const { fullMark } = config;
 
 const useStyles = makeStyles(theme => ({
@@ -26,12 +20,7 @@ const useStyles = makeStyles(theme => ({
     flexWrap: 'wrap',
   },
   iconContainer: {
-    // width: '40%',
-    // display: 'flex',
-    // justifyContent: 'space-around',
-    // padding: '10px 20px',
-
-    width: 50%,
+    width: '50%',
     display: 'flex',
     padding: '0px 20px 10px 20px',
     justifyContent: 'space-around',
@@ -39,48 +28,18 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-const RadialChartTotal = () => {
+const RadialChartTotal = (props) => {
   const classes = useStyles();
-
-  const {
-    allTuringJson,
-    allKilburnJson,
-  } = useStaticQuery(query)
-
-  const allGraphData = [...allTuringJson.nodes, ...allKilburnJson.nodes]
-  const [allData, setAllData] = useState(allGraphData);
-  const [allFilterButton, setAllFilterButton] = useState(true)
-  const [filters, setFilters] = useState([
-    {
-      club: 'Turing',
-      isSelected: true,
-    },
-    {
-      club: 'Kilburn',
-      isSelected: true,
-    }
-  ]);
-
-  let filteredData = [];
-  let resultCount = allTuringJson.nodes.length;
-
-  const handleFilter = (club) => {
-    setFilters(filters.map((filter, i) => {
-      if (filter.club === club) {
-        return { ...filter, isSelected: !filter.isSelected }
-      } else {
-        return filter
-      }
-    }));
-  }
+  const { allData } = props;
+  let formattedData = [];
+  let resultCount = allData.length;
 
   allData
-    .filter(node => filters.some((filter) => (filter.isSelected && node.club === filter.club)))
     .forEach((node, i) => {
       node.skills.forEach((skill, j) => {
         if (i === 0) {
           // Initialize our array with new object structure
-          filteredData[j] = {
+          formattedData[j] = {
             title: skill.title,
             count: resultCount,
             values: skill.values.map(({ type }) => ({ type, fullMark }))
@@ -88,33 +47,16 @@ const RadialChartTotal = () => {
         }
         // Append our values to it
         skill.values.forEach(({ level }, valueIndex) => {
-          filteredData[j].values[valueIndex][i] = level
+          formattedData[j].values[valueIndex][i] = level
         })
       })
     });
 
   return (
     <Box component='div' >
-      {/* <Paper className={classes.iconPaper} > */}
-        <Box component='div' className={classes.iconContainer}>
-          <Typography variant='h6'>FILTERS:</Typography>
-          {
-            filters.map(filter => {
-              return (
-                <ChipIcon
-                  label={filter.club}
-                  onClick={() => handleFilter(filter.club)}
-                  isSelected={filter.isSelected}
-                />
-              )
-            })
-          }
-        </Box>
-      {/* </Paper> */}
-
       <Grid container className={classes.root} spacing={2}>
         {
-          filteredData.map((data) => {
+          formattedData.map((data) => {
             return (
               <Grid item xs={12} sm={6} lg={4} >
                 <RadialChart key={data.title} data={data} />
@@ -128,34 +70,3 @@ const RadialChartTotal = () => {
 };
 
 export default RadialChartTotal;
-
-const query = graphql`
-query RadialChartTotal {
-  allTuringJson {
-    nodes {
-      skills {
-        title
-        values {
-          level
-          type
-        }
-      }
-      name
-      club
-    }
-  },
-  allKilburnJson {
-    nodes {
-      skills {
-        title
-        values {
-          level
-          type
-        }
-      }
-      name
-      club
-    }
-  }
-}
-`
